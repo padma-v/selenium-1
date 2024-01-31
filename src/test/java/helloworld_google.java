@@ -6,7 +6,7 @@ public class helloworld_google {
 
     public static void main(String[] args) {
 
-        System.setProperty("webdriver.chrome.driver", "C:\\Selenium\\Drivers\\ChromeDriver\\v80\\chromedriver.exe");
+      
         WebDriver driver = new ChromeDriver();
 
         driver.get("http://www.google.com");
@@ -15,4 +15,3 @@ public class helloworld_google {
 
     }
 }
-
