@@ -6,12 +6,11 @@ public class helloworld_google {
 
     public static void main(String[] args) {
 
-      
-        WebDriver driver = new ChromeDriver();
+        WebDriver driver = new FirefoxDriver();
 
-        driver.get("http://www.google.com");
+        driver.get("http://www.facebook.com");
 
-        driver.findElement(By.name("q")).sendKeys("helloworld");
+        driver.quit;
 
     }
 }
